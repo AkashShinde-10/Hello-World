@@ -1,0 +1,77 @@
+html,body{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.section1{
+  background-image: url(images/img1nature.avif);
+  min-height: 500px;
+ 
+}
+
+.section2{
+  background-image: url(images/img2nature.avif);
+  min-height: 400px;
+ 
+}
+
+.section3{
+  background-image: url(images/img3nature.avif);
+  min-height: 400px;
+ 
+}
+
+.section1, .section2, .section3{
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.div1{
+
+  position:absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color:black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+
+.textbg{
+  background: #313534;
+  color:#fff;
+  padding: 20px;
+}
+
+.sectiontxt{
+  padding: 50px 80px;
+  text-align: center;
+  margin:50px;
+  background-color:#666
+  
+}
+
+.light{
+  background-color: #f4f4f4;
+  color:#666;
+}
+
+.dark{
+  background-color: black;
+  color:white;
+}
+
+.diff{
+  background-color: wheat;
+  color:red
+}
